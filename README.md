@@ -71,6 +71,13 @@ SQL-Mastery/
 
 ---
 
+## 🚀 Upcoming Content (Day 14)
+
+- Common Table Expressions (CTEs)
+- Recursive CTEs
+- CTE vs Subquery comparison
+- Real interview questions using CTEs
+
 ## 👤 Author
 **Saurabh Pimpalkar**  
 Aspiring Data Analyst | SQL | Excel | Power BI  
