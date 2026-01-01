@@ -78,6 +78,65 @@ SQL-Mastery/
 - CTE vs Subquery comparison
 - Real interview questions using CTEs
 
+
+Day-15-Recursive-CTEs
+
+# Day 15 – Recursive Common Table Expressions (CTEs)
+
+This section covers **Recursive CTEs**, an advanced SQL concept used to work with hierarchical and recursive data structures.
+
+Recursive CTEs are commonly used in:
+- Employee–Manager hierarchies
+- Organizational structures
+- Parent–Child relationships
+- Tree and graph-like data
+
+---
+
+## 🔹 Key Concepts Covered
+
+- Difference between CTE and Recursive CTE
+- Anchor member and Recursive member
+- UNION ALL usage in recursion
+- Level-wise hierarchy generation
+- Finding subordinates under a manager
+- Building hierarchical paths
+
+---
+
+## 📊 Sample Use Case
+
+Employee table with manager relationships:
+
+- CEO → Managers → Employees → Interns
+- Depth of hierarchy is unknown
+- Recursive CTE helps traverse this structure efficiently
+
+---
+
+## 🧠 Learning Outcome
+
+After completing this section, you will be able to:
+- Write recursive SQL queries confidently
+- Solve hierarchy-based interview questions
+- Explain recursion logic clearly in interviews
+- Handle real-world organizational data
+
+---
+
+## 🛠 Topics Practiced
+- WITH RECURSIVE
+- Anchor query
+- Recursive query
+- Hierarchy level calculation
+- Self-referencing joins
+
+---
+
+📌 **Note:** Queries are written for learning and interview preparation purposes.
+
+
+
 ## 👤 Author
 **Saurabh Pimpalkar**  
 Aspiring Data Analyst | SQL | Excel | Power BI  
