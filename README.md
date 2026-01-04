@@ -176,6 +176,32 @@ used in real-world production systems.
 Data Analyst and SQL Developer roles.
 
 
+# Day 18 – SQL Execution Order
+
+This section explains how SQL queries are executed internally by the database,
+which is crucial for writing correct and optimized queries.
+
+## SQL Execution Order
+
+1. FROM
+2. JOIN / ON
+3. WHERE
+4. GROUP BY
+5. HAVING
+6. SELECT
+7. DISTINCT
+8. ORDER BY
+9. LIMIT
+
+## Key Concepts
+
+- WHERE filters rows before grouping
+- HAVING filters grouped data
+- SELECT aliases are created after WHERE
+- ORDER BY can use column aliases
+
+Understanding execution order helps in debugging and optimization.
+
 
 ## 👤 Author
 **Saurabh Pimpalkar**  
