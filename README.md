@@ -136,6 +136,46 @@ After completing this section, you will be able to:
 📌 **Note:** Queries are written for learning and interview preparation purposes.
 
 
+# Day 17 – SQL Query Optimization
+
+This section focuses on writing efficient and high-performance SQL queries
+used in real-world production systems.
+
+---
+
+## Topics Covered
+
+- Understanding query performance issues
+- Using EXPLAIN to analyze queries
+- Avoiding full table scans
+- Index usage for optimization
+- WHERE vs HAVING
+- EXISTS vs IN
+- Optimizing JOIN and ORDER BY queries
+
+---
+
+## Key Learnings
+
+- SELECT * should be avoided in production queries
+- Indexes improve read performance significantly
+- Filtering data early improves query speed
+- EXISTS performs better than IN for large datasets
+- ORDER BY with LIMIT works best with indexes
+
+---
+
+## Database Compatibility
+
+- Tested on MySQL 8+
+- Concepts applicable to PostgreSQL and SQL Server
+
+---
+
+📌 This day focuses on **performance tuning**, which is critical for
+Data Analyst and SQL Developer roles.
+
+
 
 ## 👤 Author
 **Saurabh Pimpalkar**  
